@@ -1,2 +1,0 @@
-# study-exam-notes-repo
-
