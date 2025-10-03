@@ -94,3 +94,26 @@
 - **DCL**: 권한 제어 (GRANT, REVOKE)
 
 ---
+
+### 11. 기업 활용 데이터베이스 시스템
+
+| 시스템   | 풀 네임                        | 설명                                 |
+|----------|---------------------------------|--------------------------------------|
+| **OLTP** | Online Transaction Processing   | 실시간 거래 처리 시스템 (예: 은행, 쇼핑몰) |
+| **OLAP** | Online Analytical Processing    | 다차원 데이터 분석 시스템 (예: 경영 분석) |
+| **CRM**  | Customer Relationship Management | 고객 관계 관리 시스템 (예: 고객 정보 관리) |
+| **ERP**  | Enterprise Resource Planning    | 전사적 자원 관리 시스템 (예: 재고, 인사, 회계 관리) |
+| **BI**   | Business Intelligence           | 비즈니스 인텔리전스 시스템 (예: 데이터 기반 의사결정 지원) |
+| **BA**   | Business Analytics              | 비즈니스 분석 (예: 예측 모델링, 심층 분석) |
+| **Blockchain** | Blockchain                  | 분산 원장 기술 (예: 암호화폐, 스마트 계약) |
+| **KMS**  | Knowledge Management System     | 지식 관리 시스템 (예: 조직 내 지식 공유) |
+
+---
+
+### 12. 데이터 사이언스 핵심 요소
+
+- **Analytics**: 이론적 지식 (수학, 통계)
+- **IT**: 프로그래밍 지식
+- **비즈니스**: 비즈니스 문제 해결 능력
+
+---
