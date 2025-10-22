@@ -266,3 +266,53 @@
    - 윤리적, 철학적 문제와 깊은 연관
 
 ---
+
+### 24. 경량 딥러닝 학습 기법
+
+1. **전이학습 (Transfer Learning)**
+   - 대규모 데이터로 학습된 모델을 새로운 작업에 재사용.
+   - 작은 데이터셋에서도 높은 성능 가능.
+
+2. **Fine-Tuning**
+   - 전이학습된 모델의 일부 또는 전체 파라미터를 특정 작업에 맞게 추가 학습.
+   - Full fine-tuning vs. Partial fine-tuning (예: LoRA, Adapter)
+
+3. **지식증류 (Knowledge Distillation)**
+   - 큰 모델(Teacher)의 지식을 작은 모델(Student)에 압축 전달.
+   - 속도 및 효율성 향상에 유리.
+
+4. **기타 경량화 기법**
+   - **Pruning**: 중요하지 않은 뉴런이나 연결을 제거하여 모델 크기 축소
+   - **Quantization**: 모델의 가중치와 연산을 정수형으로 변환해 경량화
+   - **Low-Rank Factorization**: 행렬 분해를 통해 연산량 감소
+
+---
+
+### 25. 최신 인공지능 기술동향
+
+1. **AutoML**
+   - 모델 선택, 하이퍼파라미터 튜닝, 피처 엔지니어링 등을 자동화
+   - 예시: Google AutoML, AutoKeras
+
+2. **MLOps**
+   - 머신러닝 시스템의 지속적 통합(CI), 지속적 배포(CD)를 지원하는 운영 기법
+   - 구성요소: 데이터 버전 관리, 모델 서빙, 모니터링 등
+
+3. **XAI (eXplainable AI)**
+   - 모델의 예측 결과를 사람이 이해할 수 있도록 설명
+   - 주요 기술: SHAP, LIME, Attention Visualization
+
+4. **생성형 AI (Generative AI)**
+   - 입력 조건에 따라 새로운 텍스트, 이미지, 음성 등을 생성
+   - **LLM (Large Language Model)**: GPT, Claude, Gemini 등
+   - **Diffusion Models**: Stable Diffusion, DALL·E 등
+   - **Multimodal AI**: 텍스트 + 이미지 + 음성 등 복합 입력/출력을 다루는 모델 (예: GPT-4o, Gemini 1.5 Pro)
+
+5. **에이전트형 AI (AI Agents)**
+   - LLM 기반 에이전트가 사용자의 명령을 이해하고 작업을 자동으로 수행
+   - 예시: AutoGPT, OpenAI GPT Agents, LangChain Agents
+   - **특징**
+     - 플래너 + 툴 사용 + 멀티스텝 추론
+     - 자율적 의사결정 및 API 연동 능력
+
+---
